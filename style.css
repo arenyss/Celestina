@@ -1,0 +1,80 @@
+h1{
+	font-family: 'Srisakdi', cursive;
+	display:flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   justify-content:space-around;
+   align-items:center;
+   align-content:center;
+   font-size: 50px;
+}
+
+li{ font-family: 'Quicksand', sans-serif;
+}
+
+#info_celestina, #info_sempronio, #info_melibea, #info_elicia, #info_areúsa, #info_lucrecia, #info_calisto, #info_pármeno, #info_tristán, #info_sosia  {
+    background: #71f442;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top:200px;
+    left:36%;
+    opacity:0;
+    background-color: #0C0;
+}
+#personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#navegador {
+	display:flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   justify-content:space-around;
+   align-items:center;
+   align-content:center;
+   height: 100px;
+}
+#Icon_Celestina
+ul {
+	
+}
+#navegador ul{
+   list-style-type: none; 
+   display: inline;
+   text-align: center;
+
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+   font-size: 17px;
+   padding: 10px;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+#topimage{
+  height:100px;
+  position:absolute;
+  left:-200px;
+  animation:slide 10s infinite;
+}
+@keyframes slide {
+  0% {left:-200px;}
+  50%{left:0;}
+  100%{left:-200px;}
+}
